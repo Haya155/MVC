@@ -1,0 +1,71 @@
+﻿
+<link rel="stylesheet" href="~/css/products.css" />
+
+@{
+    string[] products = {
+        "Water",
+        "Orange Juice",
+        "Coffee",
+        "Sandwich",
+        "Chocolate",
+          "Pizza"
+    };
+}
+
+<h1>Our Cafeteria Products</h1>
+
+@if (products.Length > 0)
+{
+    <ul>
+        @foreach (var item in products)
+        {
+            <li>@item</li>
+        }
+    </ul>
+}
+else
+{
+    <p>No products available.</p>
+}
+
+@if (products.Length >= 3)
+{
+    <p>We have enough Products.</p>
+}
+else
+{
+    <p>We need more Products.</p>
+}
+@foreach (string product in products)
+{
+    string category = "";
+
+    switch (product)
+    {
+        case "Pizza":
+            category = "Food";
+            break;
+
+        case "Sandwich":
+            category = "Food";
+            break;
+
+        case "Water":
+            category = "Drinks";
+            break;
+
+        case "Coffee":
+            category = "Drinks";
+            break;
+
+        case "Orange Juice":
+            category = "Drinks";
+            break;
+
+        default:
+            category = "Other";
+            break;
+    }
+
+    <p>@product - @category</p>
+}

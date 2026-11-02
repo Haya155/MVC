@@ -1,0 +1,26 @@
+﻿
+body {
+    background-color: #f0f4f8;
+}
+
+h1 {
+    color: #1d4ed8;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+h3 {
+    color: #334155;
+}
+
+ul {
+    background-color: white;
+    padding: 25px 45px;
+    border-radius: 10px;
+    width: 350px;
+}
+
+li {
+    padding: 8px;
+    color: #334155;
+}

@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <header class="bg-primary text-white p-3">
+        <h1>University Cafeteria - Suppliers</h1>
+    </header>
+ <main class="container mt-4">
+        @RenderBody()
+    </main>
+      <footer class="bg-dark text-white text-center p-3 mt-5">
+        University Cafeteria - All Rights Reserved
+    </footer>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
