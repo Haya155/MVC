@@ -1,0 +1,19 @@
+﻿<h1>@ViewData["Title"]</h1>
+<h3>Manager: @ViewData["Manager Name"]</h3>
+
+<h3>Number of Products: @ViewData["Num of Products"]</h3>
+
+<div class="row">
+
+    @foreach (var product in (string[])ViewData["Products"])
+    {
+        <div class="col-md-4 mb-3">
+            <div class="card">
+                <div class="card-body">
+                    <h5>@product</h5>
+                </div>
+            </div>
+        </div>
+    }
+
+</div>

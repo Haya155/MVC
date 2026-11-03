@@ -1,0 +1,12 @@
+﻿<h1>@ViewBag.PageTitle</h1>
+
+<h3>Number of Suppliers: @ViewBag.NumOfSuppliers</h3>
+
+@foreach (var supplier in ViewBag.Suppliers)
+{
+    <div class="card mb-2">
+        <div class="card-body">
+            @supplier
+        </div>
+    </div>
+}

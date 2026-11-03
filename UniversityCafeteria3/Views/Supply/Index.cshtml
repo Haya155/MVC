@@ -1,0 +1,14 @@
+﻿<h1>University Cafeteria</h1>
+
+<h3>Product Categories</h3>
+
+<ul class="list-group">
+
+    @foreach (var category in ViewBag.Categories)
+    {
+        <li class="list-group-item">
+            @category
+        </li>
+    }
+
+</ul>

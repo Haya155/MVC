@@ -1,0 +1,14 @@
+﻿<h2>Order Classification</h2>
+
+<form asp-controller="Supply" asp-action="CheckQuantity" method="get" class="mb-3">
+    <div class="mb-3">
+        <label>Quantity</label>
+        <input type="number" name="quantity" class="form-control" required />
+    </div>
+    <button type="submit" class="btn btn-primary">Check</button>
+</form>
+
+@if (ViewBag.Result != null)
+{
+    <div class="alert alert-info">Quantity @ViewBag.Quantity ==> @ViewBag.Result</div>
+}
