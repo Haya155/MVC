@@ -1,0 +1,44 @@
+﻿@model List<string[]>
+
+@{
+    ViewData["Title"] = "My Requests";
+}
+
+<div class="container mt-4">
+    <h2>My Confirmed Supply Requests</h2>
+
+    @if (Model == null || Model.Count == 0)
+    {
+        <div class="alert alert-warning mt-3">No confirmed requests found yet.</div>
+    }
+    else
+    {
+        <table class="table table-bordered table-striped mt-3">
+            <thead class="table-dark">
+                <tr>
+                    <th>Request ID</th>
+                    <th>Number of Products</th>
+                    <th>Subtotal</th>
+                    <th>Preparation Fee</th>
+                    <th>Discount</th>
+                    <th>Final Total</th>
+                    <th>Request Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var req in Model)
+                {
+                    <tr>
+                        <td>@req[0]</td>
+                        <td>@req[1]</td>
+                        <td>@req[2] JD</td>
+                        <td>@req[3] JD</td>
+                        <td>@req[4] JD</td>
+                        <td>@req[5] JD</td>
+                        <td><span class="badge bg-success">@req[6]</span></td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+</div>

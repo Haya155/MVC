@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "Session and Cookie Demo";
+}
+
+<div class="container mt-5">
+    <h2>Session and Cookie Demo</h2>
+    <hr />
+
+    <div class="alert alert-info">
+        <h4>Stored in Session:</h4>
+        <p>Username: <strong>@ViewBag.SessionUser</strong></p>
+        <small class="text-muted">Stored on the server temporarily while the session is active.</small>
+    </div>
+
+    <div class="alert alert-success">
+        <h4>Stored in Cookie:</h4>
+        <p>Theme: <strong>@ViewBag.CookieTheme</strong></p>
+        <small class="text-muted">Stored securely on the user's browser client-side.</small>
+    </div>
+</div>

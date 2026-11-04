@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\MVC\\UniversityCafeteria3\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{51F52149-19AA-393A-68A5-7C4E4C2F6920}|UniversityCafeteria3.csproj|c:\\users\\user\\desktop\\mvc\\universitycafeteria3\\views\\supply\\checkquantity.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{51F52149-19AA-393A-68A5-7C4E4C2F6920}|UniversityCafeteria3.csproj|solutionrelative:views\\supply\\checkquantity.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{51F52149-19AA-393A-68A5-7C4E4C2F6920}|UniversityCafeteria3.csproj|c:\\users\\user\\desktop\\mvc\\universitycafeteria3\\views\\supply\\createrequest.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{51F52149-19AA-393A-68A5-7C4E4C2F6920}|UniversityCafeteria3.csproj|solutionrelative:views\\supply\\createrequest.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{51F52149-19AA-393A-68A5-7C4E4C2F6920}|UniversityCafeteria3.csproj|c:\\users\\user\\desktop\\mvc\\universitycafeteria3\\controllers\\supplycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{51F52149-19AA-393A-68A5-7C4E4C2F6920}|UniversityCafeteria3.csproj|solutionrelative:controllers\\supplycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{51F52149-19AA-393A-68A5-7C4E4C2F6920}|UniversityCafeteria3.csproj|c:\\users\\user\\desktop\\mvc\\universitycafeteria3\\views\\supply\\checkquantity.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{51F52149-19AA-393A-68A5-7C4E4C2F6920}|UniversityCafeteria3.csproj|solutionrelative:views\\supply\\checkquantity.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{51F52149-19AA-393A-68A5-7C4E4C2F6920}|UniversityCafeteria3.csproj|c:\\users\\user\\desktop\\mvc\\universitycafeteria3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -42,11 +42,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "CheckQuantity.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\UniversityCafeteria3\\Views\\Supply\\CheckQuantity.cshtml",
               "RelativeDocumentMoniker": "Views\\Supply\\CheckQuantity.cshtml",
@@ -54,7 +54,8 @@
               "RelativeToolTip": "Views\\Supply\\CheckQuantity.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-03T18:23:58.535Z"
+              "WhenOpened": "2026-11-03T18:23:58.535Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -82,7 +83,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "SupplyController.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\UniversityCafeteria3\\Controllers\\SupplyController.cs",
               "RelativeDocumentMoniker": "Controllers\\SupplyController.cs",
@@ -94,7 +95,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CreateRequest.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\UniversityCafeteria3\\Views\\Supply\\CreateRequest.cshtml",
               "RelativeDocumentMoniker": "Views\\Supply\\CreateRequest.cshtml",
@@ -102,8 +103,7 @@
               "RelativeToolTip": "Views\\Supply\\CreateRequest.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-03T16:44:23.384Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-03T16:44:23.384Z"
             },
             {
               "$type": "Document",

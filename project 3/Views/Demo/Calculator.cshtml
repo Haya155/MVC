@@ -1,0 +1,56 @@
+﻿@{
+    ViewData["Title"] = "Comprehensive Calculator";
+}
+
+<div class="container mt-5" style="max-width: 500px;">
+    <h2>Comprehensive Calculator App</h2>
+    <hr />
+
+    <!-- Navigation links using @Url.Action -->
+    <div class="mb-4">
+        <a href='@Url.Action("Index", "Demo")' class="btn btn-secondary btn-sm">Home (Index)</a>
+        <a href='@Url.Action("History", "Demo")' class="btn btn-info btn-sm">View History</a>
+    </div>
+
+    <!-- Calculator Form using @Url.Action for form submission -->
+    <form action='@Url.Action("Calculator", "Demo")' method="post" class="border p-4 rounded shadow-sm bg-light">
+
+        <div class="mb-3">
+            <label class="form-label">First Number:</label>
+            <input type="number" step="any" name="num1" class="form-control" required />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Operation:</label>
+            <select name="operation" class="form-control">
+                <option value="+">(+) Addition</option>
+                <option value="-">(-) Subtraction</option>
+                <option value="*">(*) Multiplication</option>
+                <option value="/">(/) Division</option>
+            </select>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Second Number:</label>
+            <input type="number" step="any" name="num2" class="form-control" required />
+        </div>
+
+        <button type="submit" class="btn btn-primary w-100">Calculate</button>
+    </form>
+
+    <!-- Displaying Result -->
+    @if (ViewBag.Result != null)
+    {
+        <div class="alert alert-success mt-4 text-center">
+            <h4>Result: @ViewBag.Result</h4>
+        </div>
+    }
+
+    <!-- Displaying Error -->
+    @if (ViewBag.Error != null)
+    {
+        <div class="alert alert-danger mt-4 text-center">
+            <h4>@ViewBag.Error</h4>
+        </div>
+    }
+</div>
