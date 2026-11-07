@@ -1,0 +1,68 @@
+﻿@using AcademyGraduationPreparation.Models
+
+@{
+    ViewData["Title"] = "Create Supply Request";
+    var offers = ViewBag.Offers as List<Offer>;
+}
+
+@if (TempData["Message"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["Message"]
+    </div>
+}
+
+<h2>Graduation Supply Offers</h2>
+
+@foreach (var category in offers.Select(x => x.Category).Distinct())
+{
+    <h3>@category</h3>
+
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Supplier</th>
+                <th>Offer Name</th>
+                <th>Quantity</th>
+                <th>Unit Price</th>
+                <th>Select</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var offer in offers.Where(x => x.Category == category))
+            {
+                <tr>
+                    <td>@offer.SupplierName</td>
+                    <td>@offer.OfferName</td>
+                    <td>@offer.Quantity</td>
+                    <td>@offer.UnitPrice JD</td>
+
+                    <td>
+                        <form asp-controller="SupplyRequest"
+                              asp-action="SelectOffer"
+                              method="post">
+
+                            <input type="hidden" name="category" value="@offer.Category" />
+                            <input type="hidden" name="supplierName" value="@offer.SupplierName" />
+                            <input type="hidden" name="offerName" value="@offer.OfferName" />
+                            <input type="hidden" name="quantity" value="@offer.Quantity" />
+                            <input type="hidden" name="unitPrice" value="@offer.UnitPrice" />
+
+                            <button type="submit" class="btn btn-primary">
+                                Select
+                            </button>
+
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+<hr />
+
+<a href="@Url.Action("Review", "SupplyRequest")"
+   class="btn btn-success">
+    Review Request
+</a>
