@@ -1,36 +1,100 @@
 ﻿
-using AcademyGraduationPreparation.DatabaseModels;
+using AcademyGraduationPreparation.Models;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using System.Text.Json;
 
 namespace AcademyGraduationPreparation.Controllers
 {
     public class SupplyRequestController : Controller
     {
-        private readonly MyDbContext _context;
-
-        public SupplyRequestController(MyDbContext context)
+        private List<Offer> GetOffers()
         {
-            _context = context;
-        }
-
-        private List<AcademyGraduationPreparation.Models.Offer> GetOffers()
-        {
-            return _context.Offers
-                .Include(o => o.Supplier)
-                .ThenInclude(s => s.Category)
-                .Select(o => new AcademyGraduationPreparation.Models.Offer
+            return new List<Offer>
+            {
+                new Offer
                 {
-                    Category = o.Supplier.Category.CategoryName,
-                    SupplierName = o.Supplier.SupplierName,
-                    OfferName = o.OfferName,
-                    Quantity = o.Quantity,
-                    UnitPrice = o.UnitPrice
-                })
-                .ToList();
+                    Category = "Certificates",
+                    SupplierName = "Supplier A",
+                    OfferName = "Premium Certificate Package",
+                    Quantity = 35,
+                    UnitPrice = 2
+                },
+
+                new Offer
+                {
+                    Category = "Certificates",
+                    SupplierName = "Supplier B",
+                    OfferName = "Standard Certificate Package",
+                    Quantity = 35,
+                    UnitPrice = 1.5m
+                },
+
+                new Offer
+                {
+                    Category = "Certificates",
+                    SupplierName = "Supplier C",
+                    OfferName = "Luxury Certificate Package",
+                    Quantity = 35,
+                    UnitPrice = 2.5m
+                },
+
+                new Offer
+                {
+                    Category = "Hospitality",
+                    SupplierName = "Supplier D",
+                    OfferName = "Coffee & Drinks Package",
+                    Quantity = 100,
+                    UnitPrice = 2
+                },
+
+                new Offer
+                {
+                    Category = "Hospitality",
+                    SupplierName = "Supplier E",
+                    OfferName = "Sandwiches & Snacks Package",
+                    Quantity = 100,
+                    UnitPrice = 3
+                },
+
+                new Offer
+                {
+                    Category = "Hospitality",
+                    SupplierName = "Supplier F",
+                    OfferName = "Full Hospitality Package",
+                    Quantity = 100,
+                    UnitPrice = 4
+                },
+
+                new Offer
+                {
+                    Category = "Gifts",
+                    SupplierName = "Supplier G",
+                    OfferName = "Customized Mugs Package",
+                    Quantity = 35,
+                    UnitPrice = 2
+                },
+
+                new Offer
+                {
+                    Category = "Gifts",
+                    SupplierName = "Supplier H",
+                    OfferName = "Graduation Bags Package",
+                    Quantity = 35,
+                    UnitPrice = 3
+                },
+
+                new Offer
+                {
+                    Category = "Gifts",
+                    SupplierName = "Supplier I",
+                    OfferName = "Premium Gift Boxes Package",
+                    Quantity = 35,
+                    UnitPrice = 4
+                }
+            };
         }
 
+       
         public IActionResult Index()
         {
             ViewBag.Offers = GetOffers();
@@ -39,51 +103,55 @@ namespace AcademyGraduationPreparation.Controllers
         }
 
         [HttpPost]
-        public IActionResult SelectOffer(string category, string supplierName,
-            string offerName, int quantity, decimal unitPrice)
+        public IActionResult SelectOffer(
+            string category,
+            string supplierName,
+            string offerName,
+            int quantity,
+            decimal unitPrice)
         {
-            AcademyGraduationPreparation.Models.Offer offer =
-                new AcademyGraduationPreparation.Models.Offer
-                {
-                    Category = category,
-                    SupplierName = supplierName,
-                    OfferName = offerName,
-                    Quantity = quantity,
-                    UnitPrice = unitPrice
-                };
+            
+            Offer offer = GetOffers().FirstOrDefault(x => x.Category == category && x.SupplierName == supplierName && x.OfferName == offerName && x.Quantity == quantity &&x.UnitPrice == unitPrice);
 
-            if (category != "Certificates" &&
-                category != "Hospitality" &&
-                category != "Gifts")
+            if (offer == null)
             {
                 return RedirectToAction("Index");
             }
 
-            string jsonOffers = HttpContext.Session.GetString("SelectedOffers");
 
-            List<AcademyGraduationPreparation.Models.Offer> selectedOffers =
-                new List<AcademyGraduationPreparation.Models.Offer>();
+            string jsonOffers =
+                HttpContext.Session.GetString("SelectedOffers");
+
+            List<Offer> selectedOffers = new List<Offer>();
 
             if (jsonOffers != null)
             {
                 selectedOffers =
-                    JsonSerializer.Deserialize<List<AcademyGraduationPreparation.Models.Offer>>(jsonOffers)
-                    ?? new List<AcademyGraduationPreparation.Models.Offer>();
+                    JsonSerializer.Deserialize<List<Offer>>(jsonOffers)
+                    ?? new List<Offer>();
             }
 
+            
             selectedOffers.RemoveAll(x => x.Category == category);
 
+            
             selectedOffers.Add(offer);
 
-            string updatedJson = JsonSerializer.Serialize(selectedOffers);
+            // Convert List to JSON
+            string updatedJson =
+                JsonSerializer.Serialize(selectedOffers);
 
+            // Save List in Session
             HttpContext.Session.SetString("SelectedOffers", updatedJson);
 
             CookieOptions options = new CookieOptions();
 
             options.Expires = DateTime.Now.AddDays(7);
 
-            Response.Cookies.Append("LastSelectedCategory", category, options);
+            Response.Cookies.Append(
+                "LastSelectedCategory",
+                category,
+                options);
 
             TempData["Message"] = "Offer selected successfully";
 
@@ -92,30 +160,36 @@ namespace AcademyGraduationPreparation.Controllers
 
         public IActionResult Review()
         {
-            string jsonOffers = HttpContext.Session.GetString("SelectedOffers");
+            string jsonOffers =
+                HttpContext.Session.GetString("SelectedOffers");
 
             if (jsonOffers == null)
             {
-                TempData["Message"] = "Please select one offer from each category.";
+                TempData["Message"] =
+                    "Please select one offer from each category.";
 
                 return RedirectToAction("Index");
             }
 
-            List<AcademyGraduationPreparation.Models.Offer> selectedOffers =
-                JsonSerializer.Deserialize<List<AcademyGraduationPreparation.Models.Offer>>(jsonOffers)
-                ?? new List<AcademyGraduationPreparation.Models.Offer>();
+            // Convert JSON to List
+            List<Offer> selectedOffers =
+                JsonSerializer.Deserialize<List<Offer>>(jsonOffers)
+                ?? new List<Offer>();
 
+            // Check if all categories have one selected offer
             if (selectedOffers.Count != 3 ||
                 !selectedOffers.Any(x => x.Category == "Certificates") ||
                 !selectedOffers.Any(x => x.Category == "Hospitality") ||
                 !selectedOffers.Any(x => x.Category == "Gifts"))
             {
-                TempData["Message"] = "Please select one offer from each category.";
+                TempData["Message"] =
+                    "Please select one offer from each category.";
 
                 return RedirectToAction("Index");
             }
 
-            string lastCategory = Request.Cookies["LastSelectedCategory"];
+            string lastCategory =
+                Request.Cookies["LastSelectedCategory"];
 
             ViewBag.LastCategory = lastCategory;
 
@@ -125,30 +199,34 @@ namespace AcademyGraduationPreparation.Controllers
 
             foreach (var selectedOffer in selectedOffers)
             {
-                decimal offerTotal = selectedOffer.Quantity * selectedOffer.UnitPrice;
+                decimal offerTotal =
+                    selectedOffer.Quantity * selectedOffer.UnitPrice;
 
                 offerTotals.Add(offerTotal);
 
                 totalPrice += offerTotal;
             }
 
-            decimal discountPersentage = 0;
+            decimal discountPercentage = 0;
 
             if (totalPrice > 500)
             {
-                discountPersentage = 0.15m;
+                discountPercentage = 0.15m;
             }
             else if (totalPrice > 300)
             {
-                discountPersentage = 0.10m;
+                discountPercentage = 0.10m;
             }
 
-            decimal discountAmount = totalPrice * discountPersentage;
+            decimal discountAmount =
+                totalPrice * discountPercentage;
 
-            decimal finalTotal = totalPrice - discountAmount;
+            decimal finalTotal =
+                totalPrice - discountAmount;
 
+          
             ViewBag.TotalPrice = totalPrice;
-            ViewBag.DiscountPercentage = discountPersentage * 100;
+            ViewBag.DiscountPercentage = discountPercentage * 100;
             ViewBag.DiscountAmount = discountAmount;
             ViewBag.FinalTotal = finalTotal;
             ViewBag.OfferTotals = offerTotals;
