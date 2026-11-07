@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CafeteriaCodeFirstPractice")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4c99925c9e5b3af85f43a7714159ef80cba0e18b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3c042ad33b45ab340ae44a9373bb832d7b5e14f4")]
 [assembly: System.Reflection.AssemblyProductAttribute("CafeteriaCodeFirstPractice")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CafeteriaCodeFirstPractice")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

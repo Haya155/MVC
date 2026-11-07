@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\MVC\\CafeteriaCodeFirstPractice\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\MVC\\CafeteriaCodeFirstPractice\\Data\\Migrations\\20261106234754_InitialCreate5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Migrations\\20261106234754_InitialCreate5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B10396A1-3BEC-4FCC-AECD-372BD7B5739A}|CafeteriaCodeFirstPractice.csproj|c:\\users\\user\\desktop\\mvc\\cafeteriacodefirstpractice\\models\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B10396A1-3BEC-4FCC-AECD-372BD7B5739A}|CafeteriaCodeFirstPractice.csproj|solutionrelative:models\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B10396A1-3BEC-4FCC-AECD-372BD7B5739A}|CafeteriaCodeFirstPractice.csproj|c:\\users\\user\\desktop\\mvc\\cafeteriacodefirstpractice\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B10396A1-3BEC-4FCC-AECD-372BD7B5739A}|CafeteriaCodeFirstPractice.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\MVC\\CafeteriaCodeFirstPractice\\Data\\Migrations\\20261106234231_InitialCreate1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Migrations\\20261106234231_InitialCreate1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\MVC\\CafeteriaCodeFirstPractice\\Data\\Migrations\\20261106234754_InitialCreate5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Migrations\\20261106234754_InitialCreate5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\MVC\\CafeteriaCodeFirstPractice\\Data\\Migrations\\20261106234656_InitialCreate3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\MVC\\CafeteriaCodeFirstPractice\\Data\\Migrations\\20261106234328_InitialCreate2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Migrations\\20261106234328_InitialCreate2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\MVC\\CafeteriaCodeFirstPractice\\Data\\Migrations\\20261106234231_InitialCreate1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Migrations\\20261106234231_InitialCreate1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\MVC\\CafeteriaCodeFirstPractice\\Data\\Migrations\\20261106233437_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,10 +59,6 @@
       "RelativeMoniker": "D:0:0:{B10396A1-3BEC-4FCC-AECD-372BD7B5739A}|CafeteriaCodeFirstPractice.csproj|solutionrelative:models\\purchaseorders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B10396A1-3BEC-4FCC-AECD-372BD7B5739A}|CafeteriaCodeFirstPractice.csproj|c:\\users\\user\\desktop\\mvc\\cafeteriacodefirstpractice\\models\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B10396A1-3BEC-4FCC-AECD-372BD7B5739A}|CafeteriaCodeFirstPractice.csproj|solutionrelative:models\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B10396A1-3BEC-4FCC-AECD-372BD7B5739A}|CafeteriaCodeFirstPractice.csproj|c:\\users\\user\\desktop\\mvc\\cafeteriacodefirstpractice\\models\\suppliers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B10396A1-3BEC-4FCC-AECD-372BD7B5739A}|CafeteriaCodeFirstPractice.csproj|solutionrelative:models\\suppliers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -70,11 +70,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 11,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "20261106234754_InitialCreate5.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\CafeteriaCodeFirstPractice\\Data\\Migrations\\20261106234754_InitialCreate5.cs",
               "RelativeDocumentMoniker": "Data\\Migrations\\20261106234754_InitialCreate5.cs",
@@ -87,7 +87,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "20261106234656_InitialCreate3.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\CafeteriaCodeFirstPractice\\Data\\Migrations\\20261106234656_InitialCreate3.cs",
               "RelativeDocumentMoniker": "Data\\Migrations\\20261106234656_InitialCreate3.cs",
@@ -100,7 +100,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\CafeteriaCodeFirstPractice\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVC\\CafeteriaCodeFirstPractice\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA9wA8AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T23:17:27.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20261106234231_InitialCreate1.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\CafeteriaCodeFirstPractice\\Data\\Migrations\\20261106234231_InitialCreate1.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20261106234231_InitialCreate1.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVC\\CafeteriaCodeFirstPractice\\Data\\Migrations\\20261106234231_InitialCreate1.cs",
+              "RelativeToolTip": "Data\\Migrations\\20261106234231_InitialCreate1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T23:42:31.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Products.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\CafeteriaCodeFirstPractice\\Models\\Products.cs",
+              "RelativeDocumentMoniker": "Models\\Products.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVC\\CafeteriaCodeFirstPractice\\Models\\Products.cs",
+              "RelativeToolTip": "Models\\Products.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T23:08:28.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "20261106234328_InitialCreate2.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\CafeteriaCodeFirstPractice\\Data\\Migrations\\20261106234328_InitialCreate2.cs",
               "RelativeDocumentMoniker": "Data\\Migrations\\20261106234328_InitialCreate2.cs",
@@ -113,37 +152,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\CafeteriaCodeFirstPractice\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\MVC\\CafeteriaCodeFirstPractice\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-06T23:17:27.573Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "20261106234231_InitialCreate1.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\CafeteriaCodeFirstPractice\\Data\\Migrations\\20261106234231_InitialCreate1.cs",
-              "RelativeDocumentMoniker": "Data\\Migrations\\20261106234231_InitialCreate1.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\MVC\\CafeteriaCodeFirstPractice\\Data\\Migrations\\20261106234231_InitialCreate1.cs",
-              "RelativeToolTip": "Data\\Migrations\\20261106234231_InitialCreate1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-06T23:42:31.726Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "20261106233437_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\CafeteriaCodeFirstPractice\\Data\\Migrations\\20261106233437_InitialCreate.cs",
               "RelativeDocumentMoniker": "Data\\Migrations\\20261106233437_InitialCreate.cs",
@@ -156,7 +165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "20261106234110_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\CafeteriaCodeFirstPractice\\Data\\Migrations\\20261106234110_InitialCreate.cs",
               "RelativeDocumentMoniker": "Data\\Migrations\\20261106234110_InitialCreate.cs",
@@ -169,7 +178,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\CafeteriaCodeFirstPractice\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -182,7 +191,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "CafeteriaCodeFirstPractice",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\CafeteriaCodeFirstPractice\\CafeteriaCodeFirstPractice.csproj",
               "RelativeDocumentMoniker": "CafeteriaCodeFirstPractice.csproj",
@@ -195,7 +204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Categories.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\CafeteriaCodeFirstPractice\\Models\\Categories.cs",
               "RelativeDocumentMoniker": "Models\\Categories.cs",
@@ -208,7 +217,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "PurchaseOrderItems.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\CafeteriaCodeFirstPractice\\Models\\PurchaseOrderItems.cs",
               "RelativeDocumentMoniker": "Models\\PurchaseOrderItems.cs",
@@ -221,7 +230,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\CafeteriaCodeFirstPractice\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -234,7 +243,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "PurchaseOrders.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\CafeteriaCodeFirstPractice\\Models\\PurchaseOrders.cs",
               "RelativeDocumentMoniker": "Models\\PurchaseOrders.cs",
@@ -243,19 +252,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-06T23:08:44.014Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Products.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\CafeteriaCodeFirstPractice\\Models\\Products.cs",
-              "RelativeDocumentMoniker": "Models\\Products.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\MVC\\CafeteriaCodeFirstPractice\\Models\\Products.cs",
-              "RelativeToolTip": "Models\\Products.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-06T23:08:28.598Z",
               "EditorCaption": ""
             },
             {
