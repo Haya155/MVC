@@ -3,12 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\MVC\\AcademyGraduationPreparation\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2FF74E3D-E708-C8A4-5755-0E9A0D1574CB}|AcademyGraduationPreparation.csproj|c:\\users\\user\\desktop\\mvc\\academygraduationpreparation\\databasemodels\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FF74E3D-E708-C8A4-5755-0E9A0D1574CB}|AcademyGraduationPreparation.csproj|solutionrelative:databasemodels\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FF74E3D-E708-C8A4-5755-0E9A0D1574CB}|AcademyGraduationPreparation.csproj|c:\\users\\user\\desktop\\mvc\\academygraduationpreparation\\databasemodels\\offer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FF74E3D-E708-C8A4-5755-0E9A0D1574CB}|AcademyGraduationPreparation.csproj|solutionrelative:databasemodels\\offer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FF74E3D-E708-C8A4-5755-0E9A0D1574CB}|AcademyGraduationPreparation.csproj|c:\\users\\user\\desktop\\mvc\\academygraduationpreparation\\databasemodels\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FF74E3D-E708-C8A4-5755-0E9A0D1574CB}|AcademyGraduationPreparation.csproj|solutionrelative:databasemodels\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2FF74E3D-E708-C8A4-5755-0E9A0D1574CB}|AcademyGraduationPreparation.csproj|c:\\users\\user\\desktop\\mvc\\academygraduationpreparation\\controllers\\supplyrequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FF74E3D-E708-C8A4-5755-0E9A0D1574CB}|AcademyGraduationPreparation.csproj|solutionrelative:controllers\\supplyrequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2FF74E3D-E708-C8A4-5755-0E9A0D1574CB}|AcademyGraduationPreparation.csproj|c:\\users\\user\\desktop\\mvc\\academygraduationpreparation\\views\\supplyrequest\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2FF74E3D-E708-C8A4-5755-0E9A0D1574CB}|AcademyGraduationPreparation.csproj|solutionrelative:views\\supplyrequest\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FF74E3D-E708-C8A4-5755-0E9A0D1574CB}|AcademyGraduationPreparation.csproj|c:\\users\\user\\desktop\\mvc\\academygraduationpreparation\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FF74E3D-E708-C8A4-5755-0E9A0D1574CB}|AcademyGraduationPreparation.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FF74E3D-E708-C8A4-5755-0E9A0D1574CB}|AcademyGraduationPreparation.csproj|c:\\users\\user\\desktop\\mvc\\academygraduationpreparation\\views\\supplyrequest\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FF74E3D-E708-C8A4-5755-0E9A0D1574CB}|AcademyGraduationPreparation.csproj|solutionrelative:views\\supplyrequest\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FF74E3D-E708-C8A4-5755-0E9A0D1574CB}|AcademyGraduationPreparation.csproj|c:\\users\\user\\desktop\\mvc\\academygraduationpreparation\\models\\offer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FF74E3D-E708-C8A4-5755-0E9A0D1574CB}|AcademyGraduationPreparation.csproj|solutionrelative:models\\offer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2FF74E3D-E708-C8A4-5755-0E9A0D1574CB}|AcademyGraduationPreparation.csproj|c:\\users\\user\\desktop\\mvc\\academygraduationpreparation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -23,24 +47,8 @@
       "RelativeMoniker": "D:0:0:{2FF74E3D-E708-C8A4-5755-0E9A0D1574CB}|AcademyGraduationPreparation.csproj|solutionrelative:views\\supplyrequest\\review.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FF74E3D-E708-C8A4-5755-0E9A0D1574CB}|AcademyGraduationPreparation.csproj|c:\\users\\user\\desktop\\mvc\\academygraduationpreparation\\views\\supplyrequest\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2FF74E3D-E708-C8A4-5755-0E9A0D1574CB}|AcademyGraduationPreparation.csproj|solutionrelative:views\\supplyrequest\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FF74E3D-E708-C8A4-5755-0E9A0D1574CB}|AcademyGraduationPreparation.csproj|c:\\users\\user\\desktop\\mvc\\academygraduationpreparation\\databasemodels\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FF74E3D-E708-C8A4-5755-0E9A0D1574CB}|AcademyGraduationPreparation.csproj|solutionrelative:databasemodels\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2FF74E3D-E708-C8A4-5755-0E9A0D1574CB}|AcademyGraduationPreparation.csproj|c:\\users\\user\\desktop\\mvc\\academygraduationpreparation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FF74E3D-E708-C8A4-5755-0E9A0D1574CB}|AcademyGraduationPreparation.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FF74E3D-E708-C8A4-5755-0E9A0D1574CB}|AcademyGraduationPreparation.csproj|c:\\users\\user\\desktop\\mvc\\academygraduationpreparation\\models\\offer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FF74E3D-E708-C8A4-5755-0E9A0D1574CB}|AcademyGraduationPreparation.csproj|solutionrelative:models\\offer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FF74E3D-E708-C8A4-5755-0E9A0D1574CB}|AcademyGraduationPreparation.csproj|c:\\users\\user\\desktop\\mvc\\academygraduationpreparation\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2FF74E3D-E708-C8A4-5755-0E9A0D1574CB}|AcademyGraduationPreparation.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -49,25 +57,38 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 146,
-          "SelectedChildIndex": 2,
+          "DockedWidth": 264,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\AcademyGraduationPreparation\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\user\\Desktop\\MVC\\AcademyGraduationPreparation\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-11-06T21:23:32.198Z",
+              "DocumentIndex": 0,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\AcademyGraduationPreparation\\DatabaseModels\\Category.cs",
+              "RelativeDocumentMoniker": "DatabaseModels\\Category.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVC\\AcademyGraduationPreparation\\DatabaseModels\\Category.cs",
+              "RelativeToolTip": "DatabaseModels\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-08T11:52:02.588Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
+              "Title": "Offer.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\AcademyGraduationPreparation\\DatabaseModels\\Offer.cs",
+              "RelativeDocumentMoniker": "DatabaseModels\\Offer.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVC\\AcademyGraduationPreparation\\DatabaseModels\\Offer.cs",
+              "RelativeToolTip": "DatabaseModels\\Offer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-08T11:51:57.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "MyDbContext.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\AcademyGraduationPreparation\\DatabaseModels\\MyDbContext.cs",
               "RelativeDocumentMoniker": "DatabaseModels\\MyDbContext.cs",
@@ -80,33 +101,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "SupplyRequestController.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\AcademyGraduationPreparation\\Controllers\\SupplyRequestController.cs",
               "RelativeDocumentMoniker": "Controllers\\SupplyRequestController.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\MVC\\AcademyGraduationPreparation\\Controllers\\SupplyRequestController.cs",
               "RelativeToolTip": "Controllers\\SupplyRequestController.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAQwBQAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-06T18:22:52.728Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "About.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\AcademyGraduationPreparation\\Views\\SupplyRequest\\About.cshtml",
               "RelativeDocumentMoniker": "Views\\SupplyRequest\\About.cshtml",
               "ToolTip": "C:\\Users\\user\\Desktop\\MVC\\AcademyGraduationPreparation\\Views\\SupplyRequest\\About.cshtml",
               "RelativeToolTip": "Views\\SupplyRequest\\About.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-06T20:59:00.467Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-06T20:59:00.467Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "Review.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\AcademyGraduationPreparation\\Views\\SupplyRequest\\Review.cshtml",
               "RelativeDocumentMoniker": "Views\\SupplyRequest\\Review.cshtml",
@@ -114,37 +134,59 @@
               "RelativeToolTip": "Views\\SupplyRequest\\Review.cshtml",
               "ViewState": "AgIAABsAAAAAAAAAAAAowEUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-06T20:50:46.617Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-06T20:50:46.617Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "Offer.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\AcademyGraduationPreparation\\Models\\Offer.cs",
               "RelativeDocumentMoniker": "Models\\Offer.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\MVC\\AcademyGraduationPreparation\\Models\\Offer.cs",
               "RelativeToolTip": "Models\\Offer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-06T18:31:58.226Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\AcademyGraduationPreparation\\Views\\SupplyRequest\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\SupplyRequest\\Index.cshtml",
               "ToolTip": "C:\\Users\\user\\Desktop\\MVC\\AcademyGraduationPreparation\\Views\\SupplyRequest\\Index.cshtml",
               "RelativeToolTip": "Views\\SupplyRequest\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAEAAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-06T18:43:04.34Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-06T18:43:04.34Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\AcademyGraduationPreparation\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVC\\AcademyGraduationPreparation\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCwAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-06T20:57:01.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\AcademyGraduationPreparation\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVC\\AcademyGraduationPreparation\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-11-06T21:23:32.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "SelectOffer.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\AcademyGraduationPreparation\\Views\\SupplyRequest\\SelectOffer.cshtml",
               "RelativeDocumentMoniker": "Views\\SupplyRequest\\SelectOffer.cshtml",
@@ -152,12 +194,11 @@
               "RelativeToolTip": "Views\\SupplyRequest\\SelectOffer.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-06T19:00:07.873Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-06T19:00:07.873Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\AcademyGraduationPreparation\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -166,32 +207,20 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-06T18:23:25.168Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\AcademyGraduationPreparation\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\MVC\\AcademyGraduationPreparation\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAwC8AAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-06T20:57:01.299Z"
             }
           ]
         },
         {
-          "DockedWidth": 130,
+          "DockedWidth": 12,
           "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         }

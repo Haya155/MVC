@@ -119,16 +119,14 @@ namespace AcademyGraduationPreparation.Controllers
             }
 
 
-            string jsonOffers =
-                HttpContext.Session.GetString("SelectedOffers");
+            string jsonOffers =HttpContext.Session.GetString("SelectedOffers");
 
             List<Offer> selectedOffers = new List<Offer>();
 
             if (jsonOffers != null)
             {
                 selectedOffers =
-                    JsonSerializer.Deserialize<List<Offer>>(jsonOffers)
-                    ?? new List<Offer>();
+                    JsonSerializer.Deserialize<List<Offer>>(jsonOffers)?? new List<Offer>();
             }
 
             
