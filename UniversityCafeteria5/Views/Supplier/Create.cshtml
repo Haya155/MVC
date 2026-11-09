@@ -6,25 +6,25 @@
 
 <h2>Create Supplier</h2>
 
-@using (Html.BeginForm("Create", "Supplier", FormMethod.Post))
-{
-    <div class="mb-3">
-        @Html.LabelFor(m => m.Name)
-        @Html.TextBoxFor(m => m.Name, new { @class = "form-control" })
-    </div>
+<form method="post" asp-action="Create" asp-controller="Supplier">
 
-    <div class="mb-3">
-        @Html.LabelFor(m => m.Phone)
-        @Html.TextBoxFor(m => m.Phone, new { @class = "form-control" })
-    </div>
+    <label>Name:</label>
+    <input type="text" name="Name" />
 
-    <div class="mb-3">
-        @Html.LabelFor(m => m.Email)
-        @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
-    </div>
+    <br />
 
-    <button type="submit" class="btn btn-primary">Save</button>
+    <label>Phone:</label>
+    <input type="text" name="Phone" />
 
-    @Html.ActionLink("Back to List", "Index", "Supplier", null,
-        new { @class = "btn btn-secondary" })
-}
+    <br />
+
+    <label>Email:</label>
+    <input type="email" name="Email" />
+
+    <br />
+
+    <button type="submit">Create</button>
+
+    <a asp-action="Index" asp-controller="Supplier">Back to List</a>
+
+</form>

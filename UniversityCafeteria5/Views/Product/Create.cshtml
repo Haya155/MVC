@@ -6,35 +6,33 @@
 
 <h2>Create Product</h2>
 
-@using (Html.BeginForm("Create", "Product", FormMethod.Post))
-{
-    <div class="mb-3">
-        @Html.LabelFor(m => m.Name)
-        @Html.TextBoxFor(m => m.Name, new { @class = "form-control" })
-    </div>
+<form method="post" asp-action="Create" asp-controller="Product">
 
-    <div class="mb-3">
-        @Html.LabelFor(m => m.Price)
-        @Html.TextBoxFor(m => m.Price, new { @class = "form-control" })
-    </div>
+    <label>Name:</label>
+    <input type="text" name="Name" />
 
-    <div class="mb-3">
-        @Html.LabelFor(m => m.Quantity)
-        @Html.TextBoxFor(m => m.Quantity, new { @class = "form-control" })
-    </div>
+    <br />
 
-    <div class="mb-3">
-        @Html.LabelFor(m => m.CategoryId)
-        @Html.TextBoxFor(m => m.CategoryId, new { @class = "form-control" })
-    </div>
+    <label>Price:</label>
+    <input type="number" step="0.01" name="Price" />
 
-    <div class="mb-3">
-        @Html.LabelFor(m => m.SupplierId)
-        @Html.TextBoxFor(m => m.SupplierId, new { @class = "form-control" })
-    </div>
+    <br />
 
-    <button type="submit" class="btn btn-primary">Save</button>
+    <label>Quantity:</label>
+    <input type="number" name="Quantity" />
 
-    @Html.ActionLink("Back to List", "Index", "Product", null,
-        new { @class = "btn btn-secondary" })
-}
+    <br />
+
+    <label>CategoryId:</label>
+    <input type="number" name="CategoryId" />
+
+    <br />
+
+    <label>SupplierId:</label>
+    <input type="number" name="SupplierId" />
+
+    <br />
+
+    <button type="submit">Create</button>
+
+</form>

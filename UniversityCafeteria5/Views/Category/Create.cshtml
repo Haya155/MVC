@@ -6,22 +6,20 @@
 
 <h2>Create Category</h2>
 
-@using (Html.BeginForm("Create", "Category", FormMethod.Post))
-{
-    <div class="form-group mb-3">
-        @Html.LabelFor(m => m.Name)
+<form method="post" asp-action="Create" asp-controller="Category">
 
-        @Html.TextBoxFor(m => m.Name, new { @class = "form-control" })
-    </div>
+    <label>Name:</label>
+    <input type="text" name="Name" />
 
-    <div class="form-group mb-3">
-        @Html.LabelFor(m => m.Description)
+    <br />
 
-        @Html.TextBoxFor(m => m.Description, new { @class = "form-control" })
-    </div>
+    <label>Description:</label>
+    <input type="text" name="Description" />
 
-    <button type="submit" class="btn btn-primary">Save</button>
+    <br />
 
-    @Html.ActionLink("Back to List", "Index", "Category", null,
-        new { @class = "btn btn-secondary" })
-}
+    <button type="submit">Create</button>
+
+    <a asp-action="Index" asp-controller="Category">Back to List</a>
+
+</form>
