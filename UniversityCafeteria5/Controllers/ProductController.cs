@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using UniversityCafeteria5.Data;
 using UniversityCafeteria5.Models;
@@ -21,6 +22,9 @@ namespace UniversityCafeteria5.Controllers
         }
         public IActionResult Create()
         {
+            ViewBag.CategoryId = new SelectList(_context.Categories, "Id", "Name");
+            ViewBag.SupplierId = new SelectList(_context.Suppliers, "Id", "Name");
+
             return View();
         }
 

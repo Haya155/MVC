@@ -22,14 +22,18 @@
     <input type="number" name="Quantity" />
 
     <br />
-
-    <label>CategoryId:</label>
-    <input type="number" name="CategoryId" />
-
+    <label asp-for="CategoryId" class="form-label">Category</label>
+    <select asp-for="CategoryId" class="form-select"
+            asp-items="ViewBag.CategoryId">
+        <option value="">Select Category</option>
+    </select>
     <br />
 
-    <label>SupplierId:</label>
-    <input type="number" name="SupplierId" />
+    <label asp-for="SupplierId" class="form-label">Supplier</label>
+    <select asp-for="SupplierId" class="form-select"
+            asp-items="ViewBag.SupplierId">
+        <option value="">Select Supplier</option>
+    </select>
 
     <br />
 

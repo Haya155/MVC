@@ -240,12 +240,7 @@ namespace UniversityCafeteria5.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("ProductId")
-                        .HasColumnType("int");
-
                     b.HasKey("Id");
-
-                    b.HasIndex("ProductId");
 
                     b.ToTable("Categories");
                 });
@@ -258,6 +253,9 @@ namespace UniversityCafeteria5.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<int>("CategoryId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -268,7 +266,14 @@ namespace UniversityCafeteria5.Data.Migrations
                     b.Property<int>("Quantity")
                         .HasColumnType("int");
 
+                    b.Property<int>("SupplierId")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
+
+                    b.HasIndex("CategoryId");
+
+                    b.HasIndex("SupplierId");
 
                     b.ToTable("Products");
                 });
@@ -292,12 +297,7 @@ namespace UniversityCafeteria5.Data.Migrations
                     b.Property<int>("Phone")
                         .HasColumnType("int");
 
-                    b.Property<int?>("ProductId")
-                        .HasColumnType("int");
-
                     b.HasKey("Id");
-
-                    b.HasIndex("ProductId");
 
                     b.ToTable("Suppliers");
                 });
@@ -353,25 +353,33 @@ namespace UniversityCafeteria5.Data.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("UniversityCafeteria5.Models.Product", b =>
+                {
+                    b.HasOne("UniversityCafeteria5.Models.Category", "Category")
+                        .WithMany("Products")
+                        .HasForeignKey("CategoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("UniversityCafeteria5.Models.Supplier", "Supplier")
+                        .WithMany("Products")
+                        .HasForeignKey("SupplierId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Category");
+
+                    b.Navigation("Supplier");
+                });
+
             modelBuilder.Entity("UniversityCafeteria5.Models.Category", b =>
                 {
-                    b.HasOne("UniversityCafeteria5.Models.Product", null)
-                        .WithMany("CategoryId")
-                        .HasForeignKey("ProductId");
+                    b.Navigation("Products");
                 });
 
             modelBuilder.Entity("UniversityCafeteria5.Models.Supplier", b =>
                 {
-                    b.HasOne("UniversityCafeteria5.Models.Product", null)
-                        .WithMany("SupplierId")
-                        .HasForeignKey("ProductId");
-                });
-
-            modelBuilder.Entity("UniversityCafeteria5.Models.Product", b =>
-                {
-                    b.Navigation("CategoryId");
-
-                    b.Navigation("SupplierId");
+                    b.Navigation("Products");
                 });
 #pragma warning restore 612, 618
         }

@@ -6,8 +6,13 @@
         public string Name { get; set; }
         public double Price { get; set; }
         public int Quantity { get; set; }
-        public virtual ICollection<Category>CategoryId { get; set; }
-        public virtual ICollection<Supplier>SupplierId {  get; set; }
+        public int CategoryId { get; set; }
+
+        public int SupplierId { get; set; }
+
+        public virtual Category? Category { get; set; }
+
+        public virtual Supplier? Supplier { get; set; }
 
     }
 }
