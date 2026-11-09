@@ -1,0 +1,51 @@
+﻿
+@model Product
+
+@{
+    ViewData["Title"] = "Product Details";
+}
+
+<div class="container mt-4">
+
+    <h2 class="mb-4">Product Details</h2>
+
+    @if (Model == null)
+    {
+        <div class="alert alert-warning">
+            Product not found.
+        </div>
+    }
+    else
+    {
+        <dl class="row card card-body shadow-sm">
+
+            <dt class="col-sm-3">ID</dt>
+            <dd class="col-sm-9">@Model.Id</dd>
+
+            <dt class="col-sm-3">Name</dt>
+            <dd class="col-sm-9">@Model.Name</dd>
+
+            <dt class="col-sm-3">Description</dt>
+            <dd class="col-sm-9">@Model.Description</dd>
+
+            <dt class="col-sm-3">Price</dt>
+            <dd class="col-sm-9">@Model.Price</dd>
+
+            <dt class="col-sm-3">Quantity</dt>
+            <dd class="col-sm-9">@Model.Quantity</dd>
+
+            <dt class="col-sm-3">CategoryId</dt>
+            <dd class="col-sm-9">@Model.CategoryId</dd>
+
+            <dt class="col-sm-3">SupplierId</dt>
+            <dd class="col-sm-9">@Model.SupplierId</dd>
+
+        </dl>
+
+        <a asp-action="Edit" asp-route-id="@Model.Id"
+           class="btn btn-primary">Edit</a>
+
+        <a asp-action="Index" class="btn btn-secondary">Back</a>
+    }
+
+</div>

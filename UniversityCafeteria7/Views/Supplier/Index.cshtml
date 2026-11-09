@@ -1,0 +1,53 @@
+﻿
+@model List<Supplier>
+
+@{
+    ViewData["Title"] = "Suppliers";
+}
+
+<div class="container mt-4">
+
+    <h1 class="mb-4">Suppliers</h1>
+
+    <p>
+        <a asp-action="Create" class="btn btn-primary">
+            Create New Supplier
+        </a>
+    </p>
+
+    <table class="table table-primary table-striped table-hover">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Phone</th>
+                <th>Email</th>
+                <th>Address</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.Name</td>
+                    <td>@item.Phone</td>
+                    <td>@item.Email</td>
+                    <td>@item.Address</td>
+                    <td>
+                        <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info btn-sm">Details</a>
+                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning btn-sm">Edit</a>
+                          <form asp-action="Delete" asp-route-id="@item.Id"
+                                  method="post" class="d-inline"
+                                  onsubmit="return confirm('Are you sure you want to delete this category?');">
+                                <button type="submit" class="btn btn-sm btn-danger">Delete</button>
+                            </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</div>

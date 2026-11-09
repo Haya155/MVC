@@ -1,0 +1,51 @@
+﻿
+@model Employee
+
+@{
+    ViewData["Title"] = "Employee Details";
+}
+
+<div class="container mt-4">
+
+    <h2 class="mb-4">Employee Details</h2>
+
+    @if (Model == null)
+    {
+        <div class="alert alert-warning">
+            Employee not found.
+        </div>
+    }
+    else
+    {
+        <dl class="row card card-body shadow-sm">
+
+            <dt class="col-sm-3">ID</dt>
+            <dd class="col-sm-9">@Model.Id</dd>
+
+            <dt class="col-sm-3">Full Name</dt>
+            <dd class="col-sm-9">@Model.FullName</dd>
+
+            <dt class="col-sm-3">Phone</dt>
+            <dd class="col-sm-9">@Model.Phone</dd>
+
+            <dt class="col-sm-3">Email</dt>
+            <dd class="col-sm-9">@Model.Email</dd>
+
+            <dt class="col-sm-3">Position</dt>
+            <dd class="col-sm-9">@Model.Position</dd>
+
+            <dt class="col-sm-3">Salary</dt>
+            <dd class="col-sm-9">@Model.Salary</dd>
+
+            <dt class="col-sm-3">Hire Date</dt>
+            <dd class="col-sm-9">@Model.HireDate</dd>
+
+        </dl>
+
+        <a asp-action="Edit" asp-route-id="@Model.Id"
+           class="btn btn-primary">Edit</a>
+    }
+
+    <a asp-action="Index" class="btn btn-secondary">Back to list</a>
+
+</div>
