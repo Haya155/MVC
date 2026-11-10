@@ -1,0 +1,48 @@
+﻿
+@model SupplyRequest
+
+@{
+    ViewData["Title"] = "SupplyRequest Details";
+}
+
+<div class="container mt-4">
+
+    <h2 class="mb-4">SupplyRequest Details</h2>
+
+    @if (Model == null)
+    {
+        <div class="alert alert-warning">
+            SupplyRequest not found.
+        </div>
+    }
+    else
+    {
+        <dl class="row card card-body shadow-sm">
+
+            <dt class="col-sm-3">ID</dt>
+            <dd class="col-sm-9">@Model.Id</dd>
+
+            <dt class="col-sm-3">Status</dt>
+            <dd class="col-sm-9">@Model.Status</dd>
+
+            <dt class="col-sm-3">Request Date</dt>
+            <dd class="col-sm-9">@Model.RequestDate</dd>
+
+            <dt class="col-sm-3">Total Price</dt>
+            <dd class="col-sm-9">@Model.TotalPrice</dd>
+
+            <dt class="col-sm-3">User ID</dt>
+            <dd class="col-sm-9">@Model.UserId</dd>
+
+            <dt class="col-sm-3">User</dt>
+            <dd class="col-sm-9">@Model.User?.FullName</dd>
+
+        </dl>
+
+        <a asp-action="Edit" asp-route-id="@Model.Id"
+           class="btn btn-primary">Edit</a>
+
+        <a asp-action="Index" class="btn btn-secondary">Back</a>
+    }
+
+</div>

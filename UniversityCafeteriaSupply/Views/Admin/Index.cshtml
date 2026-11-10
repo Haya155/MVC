@@ -1,0 +1,53 @@
+@model List<ApplicationUser>
+
+@{
+    ViewData["Title"] = "Users";
+    var userRoles = (Dictionary<string, string>)ViewBag.UserRoles;
+}
+
+<div class="container mt-4">
+
+    <h1 class="mb-4">Users</h1>
+
+    @if (TempData["Error"] != null)
+    {
+        <div class="alert alert-danger">@TempData["Error"]</div>
+    }
+
+    <p>
+        <a asp-controller="Role" asp-action="Index" class="btn btn-primary">Manage Roles</a>
+    </p>
+
+    <table class="table table-primary table-striped table-hover">
+        <thead>
+            <tr>
+                <th>Full Name</th>
+                <th>Email</th>
+                <th>Role</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.FullName</td>
+                    <td>@item.Email</td>
+                    <td>@userRoles[item.Id]</td>
+
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning btn-sm">Change Role</a>
+
+                        <form asp-action="Delete" asp-route-id="@item.Id"
+                              method="post" class="d-inline"
+                              onsubmit="return confirm('Delete this user and all of his requests?');">
+                            <button type="submit" class="btn btn-sm btn-danger">Delete</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</div>

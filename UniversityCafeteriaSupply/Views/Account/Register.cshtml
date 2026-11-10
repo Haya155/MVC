@@ -1,0 +1,28 @@
+@model RegisterDTO
+
+<form asp-controller="Account" asp-action="Register" method="post">
+
+    <p style="color:red">@ViewBag.Error</p>
+
+    <label> FullName :</label>
+    <input name="FullName" type="text" />
+    <br />
+
+    <label> Email :</label>
+    <input name="Email" type="email" />
+    <br />
+
+    <label> PhoneNumber (optional) :</label>
+    <input name="PhoneNumber" type="text" />
+    <br />
+
+    <label> Password :</label>
+    <input name="Password" type="password" />
+    <br />
+
+    <label> Confirm Password :</label>
+    <input name="ConfirmPassword" type="password" />
+    <br />
+
+    <button type="submit"> Register </button>
+</form>

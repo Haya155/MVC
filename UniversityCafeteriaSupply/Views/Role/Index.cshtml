@@ -1,0 +1,30 @@
+@{
+    ViewData["Title"] = "Roles";
+}
+
+<div class="container mt-4">
+
+    <h1 class="mb-4">Roles</h1>
+
+    <p>
+        <a asp-action="addRole" class="btn btn-primary">Add New Role</a>
+        <a asp-controller="Admin" asp-action="Index" class="btn btn-secondary">Users</a>
+    </p>
+
+    <table class="table table-primary table-striped table-hover">
+        <thead>
+            <tr>
+                <th>Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in ViewBag.Roles)
+            {
+                <tr>
+                    <td>@item.Name</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</div>

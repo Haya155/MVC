@@ -3,16 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\MVC\\UniversityCafeteria5\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F82CB7A0-9E45-DE95-B9CC-5DD98AB0D804}|UniversityCafeteria5.csproj|c:\\users\\user\\desktop\\mvc\\universitycafeteria5\\data\\migrations\\20261109203252_updatemodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F82CB7A0-9E45-DE95-B9CC-5DD98AB0D804}|UniversityCafeteria5.csproj|solutionrelative:data\\migrations\\20261109203252_updatemodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F82CB7A0-9E45-DE95-B9CC-5DD98AB0D804}|UniversityCafeteria5.csproj|c:\\users\\user\\desktop\\mvc\\universitycafeteria5\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F82CB7A0-9E45-DE95-B9CC-5DD98AB0D804}|UniversityCafeteria5.csproj|solutionrelative:views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F82CB7A0-9E45-DE95-B9CC-5DD98AB0D804}|UniversityCafeteria5.csproj|c:\\users\\user\\desktop\\mvc\\universitycafeteria5\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F82CB7A0-9E45-DE95-B9CC-5DD98AB0D804}|UniversityCafeteria5.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F82CB7A0-9E45-DE95-B9CC-5DD98AB0D804}|UniversityCafeteria5.csproj|c:\\users\\user\\desktop\\mvc\\universitycafeteria5\\models\\category .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F82CB7A0-9E45-DE95-B9CC-5DD98AB0D804}|UniversityCafeteria5.csproj|solutionrelative:models\\category .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F82CB7A0-9E45-DE95-B9CC-5DD98AB0D804}|UniversityCafeteria5.csproj|c:\\users\\user\\desktop\\mvc\\universitycafeteria5\\models\\supplier .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F82CB7A0-9E45-DE95-B9CC-5DD98AB0D804}|UniversityCafeteria5.csproj|solutionrelative:models\\supplier .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F82CB7A0-9E45-DE95-B9CC-5DD98AB0D804}|UniversityCafeteria5.csproj|c:\\users\\user\\desktop\\mvc\\universitycafeteria5\\models\\product .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F82CB7A0-9E45-DE95-B9CC-5DD98AB0D804}|UniversityCafeteria5.csproj|solutionrelative:models\\product .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F82CB7A0-9E45-DE95-B9CC-5DD98AB0D804}|UniversityCafeteria5.csproj|c:\\users\\user\\desktop\\mvc\\universitycafeteria5\\data\\migrations\\20261108122243_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F82CB7A0-9E45-DE95-B9CC-5DD98AB0D804}|UniversityCafeteria5.csproj|solutionrelative:data\\migrations\\20261108122243_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F82CB7A0-9E45-DE95-B9CC-5DD98AB0D804}|UniversityCafeteria5.csproj|c:\\users\\user\\desktop\\mvc\\universitycafeteria5\\data\\migrations\\20261109203252_updatemodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F82CB7A0-9E45-DE95-B9CC-5DD98AB0D804}|UniversityCafeteria5.csproj|solutionrelative:data\\migrations\\20261109203252_updatemodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F82CB7A0-9E45-DE95-B9CC-5DD98AB0D804}|UniversityCafeteria5.csproj|c:\\users\\user\\desktop\\mvc\\universitycafeteria5\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F82CB7A0-9E45-DE95-B9CC-5DD98AB0D804}|UniversityCafeteria5.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F82CB7A0-9E45-DE95-B9CC-5DD98AB0D804}|UniversityCafeteria5.csproj|c:\\users\\user\\desktop\\mvc\\universitycafeteria5\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F82CB7A0-9E45-DE95-B9CC-5DD98AB0D804}|UniversityCafeteria5.csproj|solutionrelative:controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F82CB7A0-9E45-DE95-B9CC-5DD98AB0D804}|UniversityCafeteria5.csproj|c:\\users\\user\\desktop\\mvc\\universitycafeteria5\\controllers\\suppliercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,32 +51,8 @@
       "RelativeMoniker": "D:0:0:{F82CB7A0-9E45-DE95-B9CC-5DD98AB0D804}|UniversityCafeteria5.csproj|solutionrelative:views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F82CB7A0-9E45-DE95-B9CC-5DD98AB0D804}|UniversityCafeteria5.csproj|c:\\users\\user\\desktop\\mvc\\universitycafeteria5\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F82CB7A0-9E45-DE95-B9CC-5DD98AB0D804}|UniversityCafeteria5.csproj|solutionrelative:views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F82CB7A0-9E45-DE95-B9CC-5DD98AB0D804}|UniversityCafeteria5.csproj|c:\\users\\user\\desktop\\mvc\\universitycafeteria5\\models\\product .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F82CB7A0-9E45-DE95-B9CC-5DD98AB0D804}|UniversityCafeteria5.csproj|solutionrelative:models\\product .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F82CB7A0-9E45-DE95-B9CC-5DD98AB0D804}|UniversityCafeteria5.csproj|c:\\users\\user\\desktop\\mvc\\universitycafeteria5\\models\\category .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F82CB7A0-9E45-DE95-B9CC-5DD98AB0D804}|UniversityCafeteria5.csproj|solutionrelative:models\\category .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F82CB7A0-9E45-DE95-B9CC-5DD98AB0D804}|UniversityCafeteria5.csproj|c:\\users\\user\\desktop\\mvc\\universitycafeteria5\\models\\supplier .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F82CB7A0-9E45-DE95-B9CC-5DD98AB0D804}|UniversityCafeteria5.csproj|solutionrelative:models\\supplier .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F82CB7A0-9E45-DE95-B9CC-5DD98AB0D804}|UniversityCafeteria5.csproj|c:\\users\\user\\desktop\\mvc\\universitycafeteria5\\views\\supplier\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F82CB7A0-9E45-DE95-B9CC-5DD98AB0D804}|UniversityCafeteria5.csproj|solutionrelative:views\\supplier\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F82CB7A0-9E45-DE95-B9CC-5DD98AB0D804}|UniversityCafeteria5.csproj|c:\\users\\user\\desktop\\mvc\\universitycafeteria5\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F82CB7A0-9E45-DE95-B9CC-5DD98AB0D804}|UniversityCafeteria5.csproj|solutionrelative:controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F82CB7A0-9E45-DE95-B9CC-5DD98AB0D804}|UniversityCafeteria5.csproj|c:\\users\\user\\desktop\\mvc\\universitycafeteria5\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F82CB7A0-9E45-DE95-B9CC-5DD98AB0D804}|UniversityCafeteria5.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F82CB7A0-9E45-DE95-B9CC-5DD98AB0D804}|UniversityCafeteria5.csproj|c:\\users\\user\\desktop\\mvc\\universitycafeteria5\\views\\supplier\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -85,129 +85,38 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 22,
-          "SelectedChildIndex": 0,
+          "DockedWidth": 23,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20261109203252_UpdateModels.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\UniversityCafeteria5\\Data\\Migrations\\20261109203252_UpdateModels.cs",
-              "RelativeDocumentMoniker": "Data\\Migrations\\20261109203252_UpdateModels.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\MVC\\UniversityCafeteria5\\Data\\Migrations\\20261109203252_UpdateModels.cs",
-              "RelativeToolTip": "Data\\Migrations\\20261109203252_UpdateModels.cs",
-              "ViewState": "AgIAAGsAAAAAAAAAAAAqwH4AAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-09T20:32:52.92Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "20261108122243_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\UniversityCafeteria5\\Data\\Migrations\\20261108122243_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Data\\Migrations\\20261108122243_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\MVC\\UniversityCafeteria5\\Data\\Migrations\\20261108122243_InitialCreate.cs",
-              "RelativeToolTip": "Data\\Migrations\\20261108122243_InitialCreate.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAkwFsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-08T12:22:43.662Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\UniversityCafeteria5\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\MVC\\UniversityCafeteria5\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "Controllers\\ProductController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAYwBoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-08T11:50:16.994Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SupplierController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\UniversityCafeteria5\\Controllers\\SupplierController.cs",
-              "RelativeDocumentMoniker": "Controllers\\SupplierController.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\MVC\\UniversityCafeteria5\\Controllers\\SupplierController.cs",
-              "RelativeToolTip": "Controllers\\SupplierController.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAowCUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-08T11:48:59.612Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\UniversityCafeteria5\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\MVC\\UniversityCafeteria5\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "Views\\_ViewStart.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-08T14:46:28.49Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\UniversityCafeteria5\\Views\\Product\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Product\\Create.cshtml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\MVC\\UniversityCafeteria5\\Views\\Product\\Create.cshtml",
-              "RelativeToolTip": "Views\\Product\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-08T14:35:41.176Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\UniversityCafeteria5\\Views\\Product\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Product\\Index.cshtml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\MVC\\UniversityCafeteria5\\Views\\Product\\Index.cshtml",
-              "RelativeToolTip": "Views\\Product\\Index.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-08T12:41:12.587Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "Product .cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\UniversityCafeteria5\\Models\\Product .cs",
               "RelativeDocumentMoniker": "Models\\Product .cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\MVC\\UniversityCafeteria5\\Models\\Product .cs",
               "RelativeToolTip": "Models\\Product .cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-08T11:53:13.938Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
               "Title": "Category .cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\UniversityCafeteria5\\Models\\Category .cs",
               "RelativeDocumentMoniker": "Models\\Category .cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\MVC\\UniversityCafeteria5\\Models\\Category .cs",
               "RelativeToolTip": "Models\\Category .cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-08T11:51:05.474Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 3,
               "Title": "Supplier .cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\UniversityCafeteria5\\Models\\Supplier .cs",
               "RelativeDocumentMoniker": "Models\\Supplier .cs",
@@ -220,20 +129,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\UniversityCafeteria5\\Views\\Supplier\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Supplier\\Index.cshtml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\MVC\\UniversityCafeteria5\\Views\\Supplier\\Index.cshtml",
-              "RelativeToolTip": "Views\\Supplier\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-08T12:43:00.021Z",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\UniversityCafeteria5\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVC\\UniversityCafeteria5\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-08T11:43:17.593Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\UniversityCafeteria5\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVC\\UniversityCafeteria5\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-08T12:41:12.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20261108122243_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\UniversityCafeteria5\\Data\\Migrations\\20261108122243_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20261108122243_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVC\\UniversityCafeteria5\\Data\\Migrations\\20261108122243_InitialCreate.cs",
+              "RelativeToolTip": "Data\\Migrations\\20261108122243_InitialCreate.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAQwDwAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-08T12:22:43.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20261109203252_UpdateModels.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\UniversityCafeteria5\\Data\\Migrations\\20261109203252_UpdateModels.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20261109203252_UpdateModels.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVC\\UniversityCafeteria5\\Data\\Migrations\\20261109203252_UpdateModels.cs",
+              "RelativeToolTip": "Data\\Migrations\\20261109203252_UpdateModels.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAQwH4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-09T20:32:52.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\UniversityCafeteria5\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVC\\UniversityCafeteria5\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-08T11:50:16.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\UniversityCafeteria5\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "Controllers\\CategoryController.cs",
@@ -241,20 +202,55 @@
               "RelativeToolTip": "Controllers\\CategoryController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-08T11:48:37.186Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-08T11:48:37.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SupplierController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\UniversityCafeteria5\\Controllers\\SupplierController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SupplierController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVC\\UniversityCafeteria5\\Controllers\\SupplierController.cs",
+              "RelativeToolTip": "Controllers\\SupplierController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAowCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-08T11:48:59.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\UniversityCafeteria5\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVC\\UniversityCafeteria5\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-08T14:46:28.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\UniversityCafeteria5\\Views\\Product\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Create.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVC\\UniversityCafeteria5\\Views\\Product\\Create.cshtml",
+              "RelativeToolTip": "Views\\Product\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-08T14:35:41.176Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\UniversityCafeteria5\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\MVC\\UniversityCafeteria5\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-08T11:43:17.593Z"
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVC\\UniversityCafeteria5\\Views\\Supplier\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Supplier\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVC\\UniversityCafeteria5\\Views\\Supplier\\Index.cshtml",
+              "RelativeToolTip": "Views\\Supplier\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-08T12:43:00.021Z"
             },
             {
               "$type": "Document",
@@ -331,7 +327,7 @@
           ]
         },
         {
-          "DockedWidth": 2,
+          "DockedWidth": 1,
           "SelectedChildIndex": -1,
           "Children": [
             {
@@ -341,10 +337,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         }

@@ -1,0 +1,14 @@
+@{
+    ViewData["Title"] = "Add Role";
+}
+
+<form asp-controller="Role" asp-action="addRole" method="post">
+
+    <p style="color:red">@ViewBag.Error</p>
+
+    <label>Name</label>
+
+    <input type="text" name="roleName" />
+
+    <button type="submit"> add new role</button>
+</form>

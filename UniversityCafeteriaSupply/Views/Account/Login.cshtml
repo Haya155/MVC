@@ -1,0 +1,21 @@
+@model LoginDTO
+
+<form asp-controller="Account" asp-action="Login" method="post">
+
+    <p style="color:red">@ViewBag.Error</p>
+
+    <label> Email :</label>
+    <input name="Email" type="email" />
+
+    <br />
+    <label> Password :</label>
+    <input name="Password" type="password" />
+
+    <br />
+    <div class="mb-3 form-check">
+        <input type="checkbox" name="RememberMe" value="true" class="form-check-input" id="rememberMe">
+        <label class="form-check-label" for="rememberMe">Remember me</label>
+    </div>
+
+    <button type="submit"> Sign in </button>
+</form>

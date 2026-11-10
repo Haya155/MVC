@@ -1,0 +1,32 @@
+@model ApplicationUser
+
+@{
+    ViewData["Title"] = "Change Role";
+}
+
+<div class="container mt-4" style="max-width: 480px;">
+
+    <h2 class="mb-4">Change Role</h2>
+
+    <p>
+        <strong>@Model.FullName</strong><br />
+        @Model.Email
+    </p>
+
+    <form asp-action="Edit" method="post">
+
+        <input type="hidden" name="id" value="@Model.Id" />
+
+        <select name="roleId" class="form-select mb-3">
+            @foreach (var item in ViewBag.Roles)
+            {
+                <option value="@item.Id">@item.Name</option>
+            }
+        </select>
+
+        <button type="submit" class="btn btn-primary">Save</button>
+        <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+
+    </form>
+
+</div>
